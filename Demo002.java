@@ -1,4 +1,4 @@
-public class greater {
+public class Demo002 {
     public static void main(String args[]) {
         int num1 = 12;
         int num2 = 13;
