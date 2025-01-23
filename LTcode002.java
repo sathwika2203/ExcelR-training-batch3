@@ -1,4 +1,9 @@
-public class Solution {
+package Core_Java;
+
+import java.util.Scanner;
+
+
+class Solution {
     public int reverse(int x) {
         int reversed = 0;
 
@@ -16,5 +21,17 @@ public class Solution {
         }
 
         return reversed;
+    }
+}
+
+
+public class LTCode002 {
+    public static void main(String[] args) {
+        System.out.print("Enter the number: ");
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();;
+        Solution sol = new Solution();
+        int result = sol.reverse(number);
+        System.out.println(result);
     }
 }
